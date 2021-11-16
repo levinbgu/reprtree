@@ -38,6 +38,6 @@ If the lettering is vertical (par srt = 90) and adj is not supplied it is adjust
 Abhijit Dasgupta, modifying original code by B.D. Ripley
 }
 \seealso{
-\link{\code{plot.tree}}
+
 }
 
