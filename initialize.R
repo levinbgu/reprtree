@@ -1,6 +1,6 @@
 options(repos='http://cran.rstudio.org')
 have.packages <- installed.packages()
-cran.packages <- c('devtools','plotrix','randomForest')
+cran.packages <- c('devtools','plotrix','randomForest','tree')
 to.install <- setdiff(cran.packages, have.packages[,1])
 if(length(to.install)>0) install.packages(to.install)
 

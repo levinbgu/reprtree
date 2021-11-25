@@ -16,6 +16,5 @@ Description: This package implements the concept of representative trees from
 Depends:
     R (>= 2.14.0),
     randomForest,
-    tree,
     plotrix
 Enhances: randomForest
