@@ -29,8 +29,6 @@ as.tree <- function(gTree,rforest,max.depth=3){
   
   # Need to work out split points based on classes of the splitting vars
   classes <- attributes(rforest$terms)$dataClasses
-  print(fr$var)
-  print( as.character(gTree[,'split point']) )
   blah <- data.frame(var=fr$var, splits=as.character(gTree[,'split point']), 
                 classes=classes[fr$var], stringsAsFactors=F)
   index <- which(blah$classes=='factor' & !is.na(blah$classes))
